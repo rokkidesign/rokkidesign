@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.NavLeft{
+  /* background: linear-gradient(0deg, rgb(22, 22, 22) 0%, rgb(109, 109, 109, 0) 50%, rgb(243, 0, 0) 69%); */
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  position: fixed;
+  width: 8.33vw;
+}
+.HomeScreen{
+  background-position: auto;
+  background-size: cover;
+  
+  background: linear-gradient(357deg, rgb(195, 34, 34) 0%, rgba(255, 255, 255, 0) 50%);
+  min-height: 94vh !important;
+  top: -vh !important;
+  left: -1vh;
+  width: 91vw;
+  position: relative;
+  z-index: -2;
+}
+.NavTop{
+  height: 7vh;
+}
+
+.HomeFace{
+  width: 40vw;
+  margin-top: 10vw;
+  margin-left: 50vw;
+  position: relative;
+
+}
+/* .ButtonLeftnav{
+ background-color: grey; 
+} */
+
+.ButtonLeftnav:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.Navtop{
+  color: black;
+  transition: transform .2s; /* Animation */
+}
+
+.Navtop:hover {
+  transform: scale(1.5);
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+}
